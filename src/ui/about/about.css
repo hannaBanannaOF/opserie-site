@@ -1,0 +1,24 @@
+.about-wrap p {
+  font-size: 24px;
+  text-indent: 36px; 
+  margin-top: 0;
+}
+
+.about-wrap p:last-child {
+    margin: 0;
+}
+
+.about-wrap {
+  text-align: justify;
+  margin: 0px 56px 0px 56px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-wrap {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .about-wrap p { 
+    font-size: 16px;
+  }
+}

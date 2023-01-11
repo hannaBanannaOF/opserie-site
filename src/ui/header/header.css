@@ -1,0 +1,40 @@
+.header {
+  padding-top: 100px;
+}
+
+.header .social {
+  gap: 36px;
+  margin-bottom: 84px;
+}
+
+.header .social p {
+  font-size: 24px;
+  font-family: 'Typewriter';
+}
+
+.header .social .icon {
+  font-size: 3em;
+}
+
+@media screen and (max-width: 850px) {
+  .header .social {
+    display: flex;
+    flex-direction: column;  
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .social p {
+    font-size: 16px;
+  }
+
+  .header .social .icon {
+    font-size: 2em;
+  }
+
+  .header .social {
+    margin-bottom: 20px;
+  }
+}
