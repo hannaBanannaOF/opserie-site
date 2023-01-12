@@ -35,11 +35,19 @@ body {
 .flex-row {
   display: flex;
   flex-direction: row;  
+  flex-wrap: wrap;
+}
+
+.flex-row.center-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .flex-col .centered {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 h1.title {
@@ -49,10 +57,36 @@ h1.title {
   text-shadow: 4px 3px 0 black;
 }
 
+h5.subtitle {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Nocturne Serif';
+  text-shadow: 4px 3px 0 black;
+}
+
+div.content {
+  margin-bottom: 84px;
+}
+
 @media screen and (max-width: 600px) {
   h1.title {
     text-transform: uppercase;
     font-size: 32px;
     font-family: 'Nocturne Serif';
+  }
+
+  h5.subtitle {
+    margin: 20px auto 20px auto;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Nocturne Serif';
+  }
+
+  div.content {
+    margin-bottom: 20px;
+  }
+
+  .flex-col-sm {
+    flex-direction: column;
   }
 }

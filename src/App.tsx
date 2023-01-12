@@ -1,13 +1,21 @@
-import React from 'react';
 import { About } from './ui/about/About';
+import { Equipe } from './ui/equipe/Equipe';
+import { Footer } from './ui/footer/Footer';
 import { Header } from './ui/header/Header';
 
 function App() {
   return (
     <div style={{ color: "white" }}>
-      <Header />
-      {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ducimus culpa? Non iste qui aliquam nihil, sed dolorum beatae adipisci labore autem ipsum tenetur impedit aliquid ratione, nulla eaque reprehenderit.</p> */}
-      <About />
+      <div className="content">
+        <Header />
+      </div>
+      <div className="content">
+        <About />
+      </div>
+      <div className="content">
+        <Equipe />
+      </div>
+      <Footer />
     </div>
   );
 }
