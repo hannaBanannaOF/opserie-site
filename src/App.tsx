@@ -3,7 +3,18 @@ import { Equipe } from './ui/equipe/Equipe';
 import { Footer } from './ui/footer/Footer';
 import { Header } from './ui/header/Header';
 
+import anfitras from './images/anfitras.png';
+
 function App() {
+  if ((process.env.REACT_APP_ANFITRAS ?? '0') === '1') {
+    return (
+      <div className='flex-row center-content anfitras'>
+        <img src={anfitras} alt="H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4"/>
+        <p>H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4H4</p>
+      </div>
+    );
+  }
+
   return (
     <div style={{ color: "white" }}>
       <div className="content">

@@ -9,7 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./images/bg.png');
   background-size: cover;
+  background-repeat: no-repeat;
 }
+
+html, body { min-height: 100%; }
 
 @font-face {
   font-family: 'Nocturne Serif';
@@ -24,6 +27,11 @@ body {
 @font-face {
   font-family: 'Poppins';
   src: url(./fonts/poppins/Poppins-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Bad Signal';
+  src: url(./fonts/badsignal/Bad-Signal.otf) format('opentype');
 }
 
 .flex-col {
@@ -68,7 +76,45 @@ div.content {
   margin-bottom: 84px;
 }
 
+div.anfitras img {
+  height: 100%;
+  position: relative;
+}
+
+div.anfitras p {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Bad Signal";
+  -webkit-transform: rotate(-16.75deg);
+  -moz-transform: rotate(-16.75deg);
+  -ms-transform: rotate(-16.75deg);
+  -o-transform: rotate(-16.75deg);
+  transform: rotate(-16.75deg);
+}
+
+div.anfitras {
+  height: 100vh;
+  background-color: rgba(153, 54, 221, 0.3);
+}
+
+
 @media screen and (max-width: 600px) {
+
+  div.anfitras {
+    height: 100%;
+  }
+
+  div.anfitras img {
+    height: 40%;
+    width: 70%;
+  }
+
+  div.anfitras p {
+    font-size: 20px;
+  }
+
   h1.title {
     text-transform: uppercase;
     font-size: 32px;
