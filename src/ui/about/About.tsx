@@ -4,9 +4,9 @@ export function About() {
   return (
     <div className="about-wrap flex-col">
       <h1 className="centered title">Sobre o projeto</h1>
+      <p className='bold'>Antes de mais nada, vale ressaltar que não somos detentores dos direitos autorais de Ordem Paranormal, todos os créditos vão para Rafael Lange (Cellbit) criador de Ordem Paranormal e detentor dos direitos de uso criativo.</p>
       <p className="bold">Você já imaginou a sua história favorita do RPG em uma série? Nós também acreditamos que isso é uma ideia sensacional!</p>
       <p>E não ficamos somente no pensamento, pegamos essa ideia e juntamos com toda nossa bagagem de estudos e trabalhos audiovisuais e resolvemos criar uma série adaptando o universo de Ordem Paranormal RPG para as telas!</p>
-      <p className='bold'>Vale ressaltar que não somos detentores dos direitos autorais de Ordem Paranormal, todos os créditos vão para Rafael Lange (Cellbit) criador de Ordem Paranormal e detentor dos direitos de uso criativo.</p>
       <p>Mas afinal...</p>
       <h5 className="subtitle centered">O que é Ordem Paranormal?</h5>
       <p>Ordem Paranormal é um RPG de mesa criado e mestrado por Rafael Lange (Cellbit) na plataforma de streaming, TwitchTV no dia 29 de fevereiro de 2020. Desde então, Ordem Paranormal ganhou fama e cresceu, se tornando o RPG mais assistido do Brasil e fazendo com que esse jogo entre amigos pudesse expandir em um universo amplo e cheio de mistérios a serem solucionados.</p>
