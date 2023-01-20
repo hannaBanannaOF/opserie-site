@@ -136,3 +136,9 @@ div.anfitras {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  div.anfitras p {
+    font-size: 60px;
+  }
+}
