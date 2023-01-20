@@ -1,0 +1,28 @@
+[
+    {
+        "sectionName": "Diretor", 
+        "people": [
+            {
+                "name": "Ga Pazini",
+                "image": "ga_pazini.png"
+            }
+        ]
+    },
+    {
+        "sectionName": "Atores", 
+        "people": [
+            {
+                "name": "Lola Martins",
+                "role": "Elizabeth Webber"
+            },
+            {
+                "name": "Lucas Brisot",
+                "role": "Thiago Fritz"
+            },
+            {
+                "name": "Douglas Trindade",
+                "role": "Daniel Hartmann"
+            }
+        ]
+    }
+]
