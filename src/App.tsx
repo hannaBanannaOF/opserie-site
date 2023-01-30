@@ -16,15 +16,17 @@ function App() {
   }
 
   return (
-    <div style={{ color: "white" }}>
-      <div className="content">
-        <Header />
-      </div>
-      <div className="content">
-        <About />
-      </div>
-      <div className="content">
-        <Equipe />
+    <div>
+      <div className="container">
+        <div className="content">
+          <Header />
+        </div> 
+        <div className="content">
+          <About />
+        </div>
+        {/* <div className="content">
+          <Equipe />
+        </div> */}
       </div>
       <Footer />
     </div>
