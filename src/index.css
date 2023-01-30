@@ -36,8 +36,8 @@ html, body { min-height: 100%; }
 
 div.container {
   color: white; 
-  padding-left: 152px;
-  padding-right: 152px;
+  /* padding-left: 152px; */
+  /* padding-right: 152px; */
 }
 
 .flex-col {
@@ -143,7 +143,6 @@ div.anfitras {
   }
 
   div.container {
-    color: white; 
     padding-left: 0;
     padding-right: 0;
   }

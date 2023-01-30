@@ -20,7 +20,7 @@ function App() {
       <div className="container">
         <div className="content">
           <Header />
-        </div>
+        </div> 
         <div className="content">
           <About />
         </div>
