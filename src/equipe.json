@@ -3,8 +3,9 @@
         "sectionName": "Diretor", 
         "people": [
             {
-                "name": "Ga Pazini",
-                "image": "ga_pazini.png"
+                "name": "Gabriel Pazini",
+                "image": "ga_pazini.png",
+                "desc": "Estudante de cinema e teatro de 2015-2020, Estudante de cinema por Latin American Film Institute, Diretor pelo coletivo Offcine e membro da produção de filmes de Lucas Marques e Elisa Aleva, estudante de Artes Cênicas da UFSC."
             }
         ]
     },
@@ -13,15 +14,18 @@
         "people": [
             {
                 "name": "Lola Martins",
-                "role": "Elizabeth Webber"
+                "role": "Elizabeth Webber",
+                "desc": "Graduanda de Artes Cênicas, formada pela escola de teatro N.A.F.T e técnico em dança pela Mediotec. Apaixonada por todas expressões artísticas, pole dancer e influencer nas horas vagas."
             },
             {
                 "name": "Lucas Brisot",
-                "role": "Thiago Fritz"
+                "role": "Thiago Fritz",
+                "desc": ""
             },
             {
                 "name": "Douglas Trindade",
-                "role": "Daniel Hartmann"
+                "role": "Daniel Hartmann",
+                "desc": ""
             }
         ]
     }

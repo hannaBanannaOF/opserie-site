@@ -15,5 +15,6 @@
   flex-direction: column; 
   gap: 16px;
   align-items: center;
-  width: 132px;
+  justify-content: space-evenly;
+  width: 156px;
 }

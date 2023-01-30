@@ -1,9 +1,11 @@
 import logoRedux from "../../images/logo-reduzida.png";
+import { Modal } from "../modal/Modal";
 
 export interface EquipeCardProps {
     name: string;
     image?: string;
     role?: string;
+    desc: string;
 }
 
 export function EquipeCard(props: EquipeCardProps) {
@@ -13,15 +15,19 @@ export function EquipeCard(props: EquipeCardProps) {
     }
 
     return (
-        <div className="avatar-wrap">
-            <div className="avatar">
-                <img src={props.image ?? logoRedux} alt={props.name} onError={addDefaultSrc}/>
-            </div>
-            <div>
-                <span>{props.name}</span>
-                <br />
-                {props.role && <small>({props.role})</small>}
-            </div>
-        </div>
+        <Modal 
+            button={<div className="avatar-wrap">
+                <div className="avatar">
+                    <img src={props.image ?? logoRedux} alt={props.name} onError={addDefaultSrc}/>
+                </div>
+                <div className="flex-col">
+                    <span>{props.name}</span>
+                    {props.role && <small>({props.role})</small>}
+                </div>
+            </div>}
+            header={props.name}
+        >
+            <div>{ props.desc }</div>
+        </Modal>
     );
 }

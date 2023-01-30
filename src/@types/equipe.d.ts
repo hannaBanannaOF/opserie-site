@@ -1,5 +1,6 @@
 export type EquipeType = {
     name: string,
     image?: string,
-    role?: string
+    role?: string,
+    desc: string,
 } 

@@ -140,6 +140,7 @@ div.anfitras {
 
   .flex-col-sm {
     flex-direction: column;
+    gap: 24PX;
   }
 
   div.container {
