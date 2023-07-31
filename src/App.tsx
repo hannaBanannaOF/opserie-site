@@ -1,5 +1,5 @@
 import { About } from './ui/about/About';
-import { Equipe } from './ui/equipe/Equipe';
+// import { Equipe } from './ui/equipe/Equipe';
 import { Footer } from './ui/footer/Footer';
 import { Header } from './ui/header/Header';
 
