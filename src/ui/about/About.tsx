@@ -16,6 +16,10 @@ export function About() {
       <h5 className="subtitle centered">A história</h5>
       <p>Após um incêndio na Escola Nostradamus, um bombeiro acabou sendo morto de formas misteriosas. E cabe a Ordo Realitas, investigar e garantir que não exista nada de inabitual neste caso.</p>
       <p>A Ordem convoca para essa missão três agentes, Elizabeth Webber, Thiago Fritz e Daniel Hartmann. Os três, com o ex professor Alexsander Kothe, precisam resolver os mistérios e terminar a missão.</p>
+      <h5 className="subtitle centered">Veja nosso teaser</h5>
+      <div className="videoplayer">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/QgZjiV_mKbo" title="Teaser - Ordem Paranormal A Série (Feita por fãs)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      </div>
       <p className='centered bold'>A realidade como conhecemos está em perigo e somente os agentes da Ordem Paranormal podem nos ajudar.</p>
     </div>
   );

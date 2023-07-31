@@ -24,9 +24,9 @@ function App() {
         <div className="content">
           <About />
         </div>
-        <div className="content">
+        {/* <div className="content">
           <Equipe />
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
